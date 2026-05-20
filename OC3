@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcade Hub | Play Free Games</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>ARCADE<span>HUB</span></h1>
+        <nav>
+            <ul>
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Puzzle</a></li>
+                <li><a href="#">Casual</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="game-grid">
+        <div class="game-card">
+            <div class="thumbnail">
+                <img src="https://via.placeholder.com/250x150?text=2048+Game" alt="2048">
+            </div>
+            <h3>2048</h3>
+            <a href="game-page.html?game=2048" class="play-btn">Play Now</a>
+        </div>
+
+        <div class="game-card">
+            <div class="thumbnail">
+                <img src="https://via.placeholder.com/250x150?text=Hextris" alt="Hextris">
+            </div>
+            <h3>Hextris</h3>
+            <a href="game-page.html?game=hextris" class="play-btn">Play Now</a>
+        </div>
+
+        </main>
+
+</body>
+</html>
